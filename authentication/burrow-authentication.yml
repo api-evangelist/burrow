@@ -1,0 +1,21 @@
+generated: '2026-10-06'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://useburrow.com/docs
+sources:
+- https://useburrow.com/docs
+description: Authentication schemes as described on the Burrow documentation page.
+schemes:
+- type: http-bearer
+  name: Setup API key
+  evidence: Setup API key Create in Settings → Developer.
+  location: header
+  header: Authorization
+  how_to_obtain: Create in Settings → Developer.
+- type: http-bearer
+  name: Ingestion API key
+  evidence: Ingestion API key Separate keys for live event pipelines and CMS plugins.
+  location: header
+  header: Authorization
+  how_to_obtain: Separate keys for live event pipelines and CMS plugins.
+docs: https://useburrow.com/docs

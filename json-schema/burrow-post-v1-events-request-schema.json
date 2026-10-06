@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/burrow/main/json-schema/burrow-post-v1-events-request-schema.json",
+  "title": "PostV1EventsRequest",
+  "x-generated": "2026-10-06",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/burrow-openapi-generated.yml#/components/schemas/PostV1EventsRequest",
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "projectId": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "repo": {
+          "type": "string"
+        },
+        "environment": {
+          "type": "string"
+        },
+        "ref": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

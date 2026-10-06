@@ -1,0 +1,86 @@
+# Burrow
+
+> Burrow is a client reporting and operations platform for web agencies — WordPress, WooCommerce, GitHub, Stripe, and 20+ integrations in one event stream per client.
+
+Burrow is built for multi-client web agencies — especially mixed-stack teams running WordPress, Shopify, Craft CMS, and custom builds — that need operations visibility, automated reporting, and client portals without stitching together per-CMS dashboards.
+
+## Core pages
+
+- [Home](https://useburrow.com/): Burrow is a client reporting and operations platform for web agencies — WordPress, WooCommerce, GitHub, Stripe, and 20+ integrations in one event stream per client.
+- [Product](https://useburrow.com/product): How Burrow works: unified event ingestion, channel dashboards, automated client reports, client portals, and the Burrow MCP.
+- [Pricing](https://useburrow.com/pricing): $39 per month for up to 5 active projects, then $3 per additional project. Annual billing saves 20%. 30-day free trial, no credit card required. The rate you subscribe at is grandfathered for the life of your subscription.
+- [About](https://useburrow.com/about): Who builds Burrow and why: founded by Austin Siewert, a self-funded agency operator.
+- [Documentation](https://useburrow.com/docs): Developer docs for the Burrow API, PHP and TypeScript SDKs, CMS plugins, and MCP endpoint.
+- [Burrow MCP starter prompts](https://useburrow.com/integrations/mcp/prompts): Copy-paste starter prompts for the Burrow MCP: fleet triage, client health briefs, coverage audits, client onboarding, billing sync, and report automation.
+- [Changelog](https://useburrow.com/changelog): Release notes for new Burrow features, improvements, and fixes.
+
+## Guides
+
+- [How to Manage Multiple WordPress Sites: Best Management Tools for Agencies (2026)](https://useburrow.com/guides/manage-multiple-wordpress-sites): WP Umbrella, Modular DS, WP Remote, MainWP, ManageWP, InfiniteWP, WPMU DEV, and Jetpack compared on safe updates, backups, security, reporting, API access, and what they actually cost at 10, 50, and 200 sites.
+- [How to Sell Website Care Plans: The Complete Playbook](https://useburrow.com/guides/sell-website-care-plans): The exact playbook I used to build $20k MRR selling website care plans since 2017 — packaging, pricing, and pitching maintenance & support packages your clients will actually want.
+- [WordPress Care Plans: The Complete Guide for Agencies](https://useburrow.com/guides/wordpress-care-plans): What a WordPress care plan should include, how WP Umbrella, Modular DS, WP Remote, MainWP, and ManageWP compare for managing a fleet, and how to add analytics and ecommerce reporting on top of the maintenance tools you already run.
+
+## Comparisons
+
+- [AgencyAnalytics Alternative for Web Agencies](https://useburrow.com/compare/agencyanalytics-alternative): AgencyAnalytics alternative for web agencies — Burrow tracks maintenance retainers, sites, and code, not PPC and SEO campaign reporting dashboards.
+- [DashThis Alternatives for Agencies](https://useburrow.com/compare/dashthis-alternative): The DashThis alternative for agencies that need more than marketing charts — Burrow adds form monitoring, deploy tracking, and automated client digests.
+- [InfiniteWP Alternatives for Agencies](https://useburrow.com/compare/infinitewp-alternative): InfiniteWP alternative for agencies — Burrow replaces self-hosted WordPress management with SaaS visibility across your full client stack. No server required.
+- [Jetpack Alternatives for Agencies](https://useburrow.com/compare/jetpack-alternative): Jetpack alternative for agencies — Burrow delivers portfolio-level visibility across every client site in one timeline, built for agencies, not single-site owners.
+- [Kleio Alternative for Agencies](https://useburrow.com/compare/kleio-alternative): Kleio alternative for agencies — Kleio tracks one Shopify store's profits at $29/mo; Burrow puts commerce signals in one operations timeline across every client.
+- [Looker Studio Alternatives for Agencies](https://useburrow.com/compare/looker-studio-alternative): Looker Studio alternative for agencies — Burrow replaces manual dashboards with automated client digests, form monitoring, and deploy tracking from 20+ integrations.
+- [MainWP Alternatives for Agencies](https://useburrow.com/compare/mainwp-alternative): MainWP alternative for agencies — Burrow drops the self-hosted dashboard server and extends operational visibility beyond WordPress to your whole client stack.
+- [ManageWP Alternatives for Agencies](https://useburrow.com/compare/managewp-alternative): ManageWP alternative for agencies with mixed stacks — Burrow sees Craft CMS, GitHub, and form health across the portfolio a WordPress-only tool can't.
+- [Metorik Alternative for Agencies](https://useburrow.com/compare/metorik-alternative): Metorik alternative for agencies — Metorik reports on one WooCommerce store; Burrow puts commerce signals in a full operations timeline for every client.
+- [Shopify Analytics Alternative for Agencies](https://useburrow.com/compare/shopify-analytics-alternative): Shopify Analytics alternative for agencies — native reporting shows what sold in one store; Burrow shows the full client retainer, from orders to deploys and uptime.
+- [Triple Whale Alternative for Agencies](https://useburrow.com/compare/triple-whale-alternative): Triple Whale alternative for agencies — built for DTC attribution from $219/mo; Burrow unifies commerce with deploys, forms, and billing across every client.
+- [WP Remote Alternatives for Agencies](https://useburrow.com/compare/wp-remote-alternative): WP Remote alternative for agencies whose clients run more than WordPress — Burrow unifies care-plan signals with Craft CMS, GitHub, and form health per client.
+- [WP Umbrella Alternatives for Agencies](https://useburrow.com/compare/wp-umbrella-alternative): WP Umbrella alternative for agencies managing mixed stacks — Burrow extends care-plan visibility beyond WordPress into one operational timeline per client.
+- [WPMU DEV Alternatives for Agencies](https://useburrow.com/compare/wpmu-dev-alternative): WPMU DEV alternative for agencies — Burrow offers focused cross-stack visibility without the mega-suite bloat, hosting lock-in, or 270-plugin overhead.
+
+## Use cases
+
+- [Agency operations dashboard — every client in one view](https://useburrow.com/use-cases/agency-operations): Stop switching between WordPress admin, GitHub, and Stripe for each client. Burrow unifies deploys, forms, orders, payments, and uptime in one timeline.
+- [Client portal software for web agencies — live activity views](https://useburrow.com/use-cases/client-portals): Give clients a live, read-only view of deploys, forms, orders, and uptime — no admin access to WordPress, GitHub, or Stripe required.
+- [Automated client reporting for web agencies — monthly reports](https://useburrow.com/use-cases/client-reporting): Generate monthly client reports automatically from real operational data — deploys, forms, orders, payments, and uptime. Stop screenshotting dashboards.
+- [WordPress version and plugin tracking across client sites](https://useburrow.com/use-cases/cms-version-tracking): See which of your 40 WordPress sites run PHP 8.3, which have outdated WooCommerce, and which need core updates — one portfolio view, no logging into admin panels.
+- [WooCommerce and ecommerce analytics for agencies — order reports](https://useburrow.com/use-cases/ecommerce-operations): Track WooCommerce orders, revenue, and checkout health across every client store — commerce data alongside deploys, forms, and billing.
+- [Website form reporting for agencies — subfield analytics](https://useburrow.com/use-cases/form-monitoring): Track Gravity Forms, CF7, Fluent Forms, and Ninja Forms submissions across client sites — with subfield analytics on dropdowns, service types, and budget ranges.
+- [Website maintenance reporting for agencies — care plan reports](https://useburrow.com/use-cases/maintenance-reporting): Document plugin updates, backups, uptime checks, form health, and security scans automatically — timestamped care plan reports that prove what clients pay for.
+- [Manage WordPress, Craft CMS, and Statamic from one dashboard](https://useburrow.com/use-cases/multi-cms-agencies): ManageWP sees WordPress. Nothing sees the rest. Burrow normalizes WordPress, Craft CMS, Statamic, GitHub, and Stripe into one timeline per client.
+- [Website monitoring for agencies — uptime, forms, and checkout](https://useburrow.com/use-cases/site-monitoring): Monitor uptime alongside form submissions, checkout health, deploys, and CMS changes — the context that tells you why a client site broke, not just that it did.
+
+## Integrations
+
+- [Craft CMS for agencies — fleet management with a native plugin](https://useburrow.com/integrations/craft-cms): Burrow's Craft CMS plugin captures entry publishes, Formie, Freeform, and Sprout Forms submissions, and Craft Commerce orders — every Craft site in one dashboard.
+- [ExpressionEngine for agencies — operational visibility for EE](https://useburrow.com/integrations/expressionengine): Bring ExpressionEngine events into Burrow alongside WordPress, Shopify, GitHub, and Stripe — EE projects join the same client timeline as the rest of your stack.
+- [GitHub integration for agencies — deploy tracking per client](https://useburrow.com/integrations/github): Stream GitHub pushes, releases, and workflow runs into Burrow's client timelines. When a deploy breaks a form or checkout, Burrow shows the correlation.
+- [Google Analytics for agencies — GA4 reporting in client context](https://useburrow.com/integrations/google-analytics): Pair GA4 traffic and conversion data with Burrow's operational events — traffic spikes and post-deploy form drops show up in one client timeline.
+- [MainWP — keep your self-hosted dashboard, see your whole agency](https://useburrow.com/integrations/mainwp): Connect MainWP with a read-only API key — every site shows up in Burrow next to GitHub, analytics, and invoices. Nothing to migrate or install on child sites.
+- [Burrow MCP — run your agency from Cursor and Claude Desktop](https://useburrow.com/integrations/mcp): Connect Cursor, Claude Desktop, or any MCP client to the Burrow MCP — 38 tools that automate client onboarding, billing sync, reports, and health queries.
+- [Oh Dear — uptime monitoring in your agency operations timeline](https://useburrow.com/integrations/oh-dear): Ingest Oh Dear uptime and health checks into Burrow alongside CMS events, deploys, and billing — when a site goes down, see what changed before the outage.
+- [Shopify for agencies — ecommerce ops beyond Shopify Analytics](https://useburrow.com/integrations/shopify): Connect a Shopify store with a read-only Admin API token — orders, fulfillments, refunds, and checkout signals land alongside WordPress, GitHub, Stripe, and analytics, with up to two years of history backfilled.
+- [Statamic for agencies — Laravel-native CMS operations](https://useburrow.com/integrations/statamic): Stream Statamic content events and form submissions into Burrow alongside WordPress, Shopify, GitHub, and Stripe — built for agencies running mixed stacks.
+- [Stripe for agencies — billing and revenue signals per client](https://useburrow.com/integrations/stripe): Bring Stripe invoices, subscriptions, and payment events into Burrow alongside deploys, forms, and CMS activity — see the why behind revenue changes.
+- [WooCommerce reporting for agencies — orders, carts, and checkout](https://useburrow.com/integrations/woocommerce): The Burrow WordPress plugin captures WooCommerce orders, checkout funnel signals, and cart activity — unified with GitHub, Stripe, and analytics reporting.
+- [WordPress for agencies — form monitoring and WooCommerce signals](https://useburrow.com/integrations/wordpress): The Burrow WordPress plugin captures Gravity Forms, Fluent Forms, Ninja Forms, and CF7 submissions plus WooCommerce orders — unified for automated client reporting.
+- [WP Remote — keep BlogVault/MalCare, see your whole agency](https://useburrow.com/integrations/wp-remote): Connect WP Remote with one API token — every site you manage shows up in Burrow next to GitHub, analytics, and invoices. Nothing to install on client sites.
+- [WP Umbrella — keep your care plans, see your whole agency](https://useburrow.com/integrations/wp-umbrella): Connect WP Umbrella with one API key — every site you manage shows up in Burrow next to GitHub, analytics, and invoices. Nothing to install on client sites.
+
+## Channels
+
+- [Analytics reporting for agencies — GA4, Plausible & Fathom](https://useburrow.com/channels/analytics): Cross-client traffic from Google Analytics, Plausible, and Fathom — normalized nightly snapshots, the numbers that matter, and native dashboards built in.
+- [Zapier, n8n & Make monitoring for agencies — failure detection](https://useburrow.com/channels/automations): Detect Zapier zap failures, n8n workflow errors, and Make scenario breakdowns before clients notice missing data — tracked alongside forms, deploys, and commerce.
+- [Website backup monitoring for agencies — verification & alerts](https://useburrow.com/channels/backups): Backup health across every server and job — success rates, restore-by dates, expired-run flags, and on-demand backups, with every run logged per client.
+- [GitHub reporting for agencies — commits, PRs & deploy tracking](https://useburrow.com/channels/code): Cross-client engineering reporting from GitHub — commit pulse, code churn, top authors, and stale-repo alerts, with deploys correlated to what broke.
+- [Custom event tracking API — events from any app or feed](https://useburrow.com/channels/custom): Name your own events, pull any HTTP feed with a no-code connector, and build KPIs and breakdowns with the widget builder — a reporting channel for anything.
+- [WooCommerce reporting for agencies — orders, revenue & funnels](https://useburrow.com/channels/ecommerce): Gross revenue, order trends, and cart-to-purchase funnels across every client store — WooCommerce, Shopify, and Craft Commerce.
+- [WordPress form reporting — Gravity Forms, CF7 & Fluent Forms](https://useburrow.com/channels/forms): Form submissions across every client site you manage — portfolio rollups, per-site form performance, and subfield reporting that shows what people actually submitted.
+- [Invoice tracking for agencies — Stripe, FreshBooks & Harvest](https://useburrow.com/channels/invoicing): Total invoiced, receivables, MRR and ARR, collection health, and top clients ranked by billing — the agency's money story, next to the work it pays for.
+- [Uptime monitoring for agencies — downtime alerts with context](https://useburrow.com/channels/monitoring): Uptime, response times, Lighthouse scores, broken links, and certificate health across every monitored site — with every check feeding client reports.
+- [WordPress plugin & version tracking for agencies](https://useburrow.com/channels/system): CMS versions, PHP runtimes, plugin inventories, and pending updates across every WordPress, Craft, and Statamic site — heartbeats prove each install is alive.
+
+## Optional
+
+- [Full content](https://useburrow.com/llms-full.txt): Complete markdown content of every guide, comparison, use case, integration, and channel page.
+- [Sitemap](https://useburrow.com/sitemap-index.xml): XML sitemap of all pages.
+- [RSS feed](https://useburrow.com/rss.xml): Guides and release notes feed.

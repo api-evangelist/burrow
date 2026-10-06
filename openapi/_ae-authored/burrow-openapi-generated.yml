@@ -1,0 +1,144 @@
+openapi: 3.1.0
+info:
+  title: Burrow API
+  version: '2026-10-06'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-06: 3 operation(s) read from 4 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Burrow has published no machine-readable contract that the pipeline
+    could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 2
+    pages-with-code: 2
+    pages-read: 4
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-06'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://useburrow.com/docs
+  - https://useburrow.com/integrations/github
+  - https://useburrow.com/integrations/mcp
+  - https://useburrow.com/integrations/statamic
+servers:
+- url: https://api.useburrow.com
+paths:
+  /api/mcp:
+    post:
+      operationId: post_api_mcp
+      tags:
+      - Api
+      summary: The Burrow MCP is a JSON‑RPC endpoint at POST /api/mcp that exposes 38 tools — 26 for organization setup and 12 for analytics.
+      description: External AI agents use a setup API key to manage clients, mappings, billing sync, and report schedules, and to query channel
+        metrics, project health, and client summaries.
+      x-source: https://useburrow.com/integrations/mcp
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /api/v1/events:
+    post:
+      operationId: post_api_v1_events
+      tags:
+      - Api
+      summary: Unified event ingestion.
+      description: Every event flows through a single endpoint. Plugins, SDKs, and custom integrations all use the same envelope format — scoped
+        by organization, client, and project.
+      x-source: https://useburrow.com/docs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostApiV1EventsRequest'
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /v1/events:
+    post:
+      operationId: post_v1_events
+      tags:
+      - Events
+      summary: POST /v1/events
+      x-source: https://useburrow.com/integrations/github
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV1EventsRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -sS -X POST \"https://api.useburrow.com/v1/events\"  -H \"Authorization: Bearer $BURROW_API_TOKEN\"  -H \"Content-Type:\
+          \ application/json\"  -d '{\n \"source\": \"github\",\n \"type\": \"deploy.succeeded\",\n \"projectId\": \"client_lumen\",\n \"payload\"\
+          : {\n \"repo\": \"lumen/marketing-site\",\n \"environment\": \"production\",\n \"ref\": \"v2.4.1\",\n \"actor\": \"dev-team\"\n }\n\
+          \ }' GitHub shows what changed in the code. Burrow shows "
+components:
+  schemas:
+    PostApiV1EventsRequest:
+      type: object
+      properties:
+        clientId:
+          type: string
+          description: Organization‑scoped client identifier.
+        projectId:
+          type: string
+          description: Organization‑scoped project identifier.
+        channel:
+          type: string
+          description: The channel name (e.g., "forms").
+        event:
+          type: string
+          description: Event name (e.g., "forms.submission.received").
+        timestamp:
+          type: string
+          description: ISO‑8601 timestamp of the event.
+        properties:
+          type: object
+          description: Arbitrary key‑value pairs with event‑specific data.
+        tags:
+          type: object
+          description: Arbitrary key‑value pairs for tagging the event.
+      required:
+      - clientId
+      - projectId
+      - channel
+      - event
+      - timestamp
+    PostV1EventsRequest:
+      type: object
+      properties:
+        source:
+          type: string
+        type:
+          type: string
+        projectId:
+          type: string
+        payload:
+          type: object
+          properties:
+            repo:
+              type: string
+            environment:
+              type: string
+            ref:
+              type: string
+            actor:
+              type: string
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer
+security:
+- bearer: []
+tags:
+- name: Api
+- name: Events

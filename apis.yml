@@ -1,23 +1,112 @@
 aid: burrow
+
 name: Burrow
-description: 'Burrow is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://useburrow.com/images/og-home.jpg
+
+description: Burrow provides a client reporting and operations platform for web agencies, offering an event‑driven orchestration layer that ingests
+  data from tools like WordPress, Shopify, Stripe, and many others. It supplies SDKs, plugins, and a JSON‑RPC MCP for AI agents to automate agency
+  workflows, generate reports, and query analytics. The platform is self‑funded, independent, and built for long‑term agency operations.
+
 url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-06 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-06'
+
 modified: '2026-10-06'
+
 tags:
 - Company
-apis: []
+- SaaS
+- Reporting
+- Automation
+- API
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/burrow-plans-pricing.yml
+- type: Spectral
+  url: rules/burrow-rules.yml
+- type: JSONLD
+  url: json-ld/burrow-context.jsonld
+- type: Vocabulary
+  url: vocabulary/burrow-vocabulary.yml
+- type: DataModel
+  url: data-model/burrow-data-model.yml
+- type: ChangeLog
+  url: changelog/burrow-changelog.yml
+- type: Idempotency
+  url: conventions/burrow-conventions.yml
+- type: Conventions
+  url: conventions/burrow-conventions.yml
+- type: Authentication
+  url: authentication/burrow-authentication.yml
+- type: Conformance
+  url: conformance/burrow-conformance.yml
+- type: LLMsTxt
+  url: llms/burrow-llms.txt
+- type: Hosts
+  url: hosts/burrow-hosts.yml
+- type: Vendors
+  url: vendors/burrow-vendors.yml
+- type: TermsOfService
+  url: https://useburrow.com/terms
+- type: SignUp
+  url: https://app.useburrow.com/sign-up
+- type: PrivacyPolicy
+  url: https://useburrow.com/privacy
+- type: Pricing
+  url: https://useburrow.com/pricing
+- type: ChangeLog
+  url: https://useburrow.com/changelog
+- type: GettingStarted
+  url: https://useburrow.com/docs
+- type: DomainSecurity
+  url: security/burrow-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/burrow_stock/
+  url: https://useburrow.com/
+
+apis:
+- aid: burrow:burrow-api
+  name: Burrow API
+  description: 'Burrow API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-06); not
+    the provider''s own document.'
+  humanURL: https://useburrow.com/docs
+  baseURL: https://api.useburrow.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/burrow-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/burrow-post-api-v1-events-request-schema.json
+  - type: JSONSchema
+    url: json-schema/burrow-post-v1-events-request-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Burrow's developer docs render via JavaScript and provide no machine‑readable OpenAPI spec.
+  evidence:
+  - url: https://useburrow.com/
+    status: 200
+  checked: '2026-10-06'
+x-enrichment:
+  date: '2026-10-06'
+  status: enriched
+  artifacts_added: 21
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

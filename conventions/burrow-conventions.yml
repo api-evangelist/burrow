@@ -1,0 +1,14 @@
+generated: '2026-10-06'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://useburrow.com/docs
+sources:
+- https://useburrow.com/docs
+idempotency:
+  coverage: partial
+  evidence: Deterministic event keys ensure safe retries and deduplication across outbox workers for the POST /api/v1/events write operation.
+  scope:
+  - not enumerated on the pages read
+pagination: {}
+authentication: 'Bearer token supplied in the Authorization header (e.g., "Authorization: Bearer brw_live_xxxx_your_key").'
+docs: https://useburrow.com/docs

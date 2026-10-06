@@ -1,0 +1,73 @@
+generated: '2026-10-06'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://useburrow.com/changelog
+sources:
+- https://useburrow.com/changelog
+entries:
+- breaking: false
+  highlights:
+  - New MCP Starter Prompts
+  - A library of tested, copy-paste starter prompts for the Burrow MCP — morning fleet triage, client health briefs, coverage audits, client onboarding,
+    billing sync, and report setup.
+  - Each prompt lists the key type it needs and pastes straight into Cursor or Claude Desktop.
+  date: '2026-07-01'
+- breaking: false
+  highlights:
+  - New Analytics MCP Tools
+  - Twelve read-only analytics tools on the MCP endpoint — org overview, channel metrics, project health, client summaries, fleet triage, and
+    period-over-period comparisons.
+  - Enable Analytics on a setup key in Settings → Developer to unlock them.
+  date: '2026-07-01'
+- breaking: false
+  highlights:
+  - Improved Setup Key Scopes
+  - Setup keys now carry an optional Analytics toggle alongside read-only / read & write access, so a reporting agent can query metrics with zero
+    write risk.
+  date: '2026-07-01'
+- breaking: false
+  highlights:
+  - New Burrow MCP JSON‑RPC MCP endpoint with 23 setup tools.
+  - Connect Cursor or Claude Desktop with a setup API key to automate clients, mappings, billing sync, reports, and org‑wide integration coverage
+    audits.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New Unified Event Ingestion API
+  - A single normalized event model that ingests signals from GitHub, Stripe, Plausible, Fathom, Oh Dear, SnapShooter, and more.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New Scout AI Agent
+  - Configure projects, apply mappings, schedule reports, and surface anomalies — all through natural language.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New Client Portals
+  - Read‑only sharing links with cryptographically signed access.
+  - Clients see real‑time project activity without a Burrow account.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New Automated Reports
+  - Monthly digests assembled from real event data.
+  - Scheduled, branded, and delivered automatically via email.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New First‑Class CMS Plugins
+  - WordPress, Craft CMS, Statamic, and ExpressionEngine plugins that auto‑detect your stack and backfill event history.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New Nine Event Channels
+  - Code, Analytics, Ecommerce, Forms, Monitoring, Invoicing, Backups, Automations, and System — covering the full operational surface area.
+  date: '2026-03-01'
+- breaking: false
+  highlights:
+  - New PHP & TypeScript SDKs
+  - Send custom events from any application using our first‑party SDKs or the generic webhook endpoint.
+  date: '2026-03-01'
+current_version: 4.1.0
+note: Versioning scheme follows semantic versioning (major.minor.patch).
+docs: https://useburrow.com/changelog

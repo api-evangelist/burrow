@@ -1,0 +1,28 @@
+generated: '2026-10-06'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/burrow-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: No MCP server was found. The pre-flight posted tools/list to /mcp on useburrow.com, app.useburrow.com; verdict None. Candidate tools below
+  are derived from the 3 operation(s) in the provider's own OpenAPI (3 listed); they describe what a server WOULD expose, not one that exists.
+tools:
+- name: post_api_mcp
+  operationId: post_api_mcp
+  method: POST
+  path: /api/mcp
+  description: The Burrow MCP is a JSON‑RPC endpoint at POST /api/mcp that exposes 38 tools — 26 for organization setup and 12 for analytics.
+- name: post_api_v1_events
+  operationId: post_api_v1_events
+  method: POST
+  path: /api/v1/events
+  description: Unified event ingestion.
+- name: post_v1_events
+  operationId: post_v1_events
+  method: POST
+  path: /v1/events
+  description: POST /v1/events

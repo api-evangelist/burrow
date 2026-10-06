@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "https://useburrow.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "burrow": "https://useburrow.com/schema#",
+    "PostApiV1EventsRequest": "burrow:PostApiV1EventsRequest",
+    "clientId": {
+      "@id": "burrow:clientId",
+      "@type": "xsd:string"
+    },
+    "projectId": {
+      "@id": "burrow:projectId",
+      "@type": "xsd:string"
+    },
+    "channel": {
+      "@id": "burrow:channel",
+      "@type": "xsd:string"
+    },
+    "event": {
+      "@id": "burrow:event",
+      "@type": "xsd:string"
+    },
+    "timestamp": {
+      "@id": "burrow:timestamp",
+      "@type": "xsd:string"
+    },
+    "properties": {
+      "@id": "burrow:properties"
+    },
+    "tags": {
+      "@id": "burrow:tags"
+    },
+    "PostV1EventsRequest": "burrow:PostV1EventsRequest",
+    "source": {
+      "@id": "burrow:source",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "burrow:type",
+      "@type": "xsd:string"
+    },
+    "payload": {
+      "@id": "burrow:payload"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Burrow API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Burrow's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-06) from openapi/_ae-authored/burrow-openapi-generated.yml.",
+  "dcterms:created": "2026-10-06",
+  "dcterms:source": [
+    "openapi/_ae-authored/burrow-openapi-generated.yml"
+  ]
+}

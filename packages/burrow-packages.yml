@@ -1,0 +1,33 @@
+generated: '2026-10-06'
+method: none
+source: https://registry.npmjs.org/-/v1/search?text=burrow&size=5
+packages: []
+rejected:
+- name: burrow
+  registry: npm
+  reason: 'official: false as written'
+- name: '@ratelkey/burrow-sdk'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@burrow-ui/tokens'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@ratelkey/cli'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@burrow-ui/tabs'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@burrow-ui/react'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@burrow-ui/system'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@burrow-ui/avatar'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@arpadegyed/burrow'
+  registry: npm
+  reason: 'official: false as written'
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'

@@ -1,0 +1,20 @@
+generated: '2026-10-06'
+method: probed
+source: https://useburrow.com/privacy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://useburrow.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "You have the right to access, correct, or delete your personal data at any time."
+    note: Users can exercise rights via account settings or contact.
+    section: "Your Rights"
+  data_retention:
+    evidence:
+      - source: https://useburrow.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "We retain your information as long as your account is active and as necessary to provide the Services, comply with legal obligations, resolve disputes, and enforce our agreements."
+    note: Retention tied to account activity and legal needs.
+    section: "Data Retention"

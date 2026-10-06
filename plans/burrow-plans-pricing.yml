@@ -1,0 +1,18 @@
+generated: '2026-10-06'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://useburrow.com/pricing
+sources:
+- https://useburrow.com/pricing
+- https://useburrow.com/guides/sell-website-care-plans
+- https://useburrow.com/guides/wordpress-care-plans
+- https://useburrow.com/integrations/wp-umbrella
+name: Burrow pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Standard
+  price_text: $39 / mo
+  price: 39
+  description: Pay for projects, not seats. Includes up to 5 active projects. Additional projects $3 each.
+docs: https://useburrow.com/pricing
