@@ -1,0 +1,46 @@
+openapi: 3.2.0
+info:
+  title: Burrow MCP API
+  version: '2026-10-06'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-06: 3 operation(s) read from 4 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Burrow has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 2
+    pages-with-code: 2
+    pages-read: 4
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-06'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://useburrow.com/docs
+  - https://useburrow.com/integrations/github
+  - https://useburrow.com/integrations/mcp
+  - https://useburrow.com/integrations/statamic
+servers:
+- url: https://api.useburrow.com
+security:
+- bearer: []
+tags:
+- name: MCP
+paths:
+  /api/mcp:
+    post:
+      operationId: post_api_mcp
+      tags:
+      - MCP
+      summary: The Burrow MCP is a JSON‑RPC endpoint at POST /api/mcp that exposes 38 tools…
+      description: External AI agents use a setup API key to manage clients, mappings, billing sync, and report schedules, and to query channel metrics, project health, and client summaries.
+      x-source: https://useburrow.com/integrations/mcp
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+components:
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer

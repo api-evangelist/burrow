@@ -1,0 +1,22 @@
+{
+  "provider": "burrow",
+  "sources": [
+    "_ae-authored/burrow-openapi-generated.yml"
+  ],
+  "outputs": [
+    "burrow-events-api-openapi.yml",
+    "burrow-mcp-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "burrow-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "burrow-openapi-generated.yml: tagged paths POST /api/mcp -> Mcp",
+    "burrow-openapi-generated.yml: tagged paths POST /api/v1/events -> Events",
+    "burrow-openapi-generated.yml: declared missing tag: Mcp",
+    "apis.yml register: written (+2 apis, 2 total)"
+  ],
+  "skipped": []
+}

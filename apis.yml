@@ -81,21 +81,34 @@ common:
   url: https://useburrow.com/
 
 apis:
-- aid: burrow:burrow-api
-  name: Burrow API
-  description: 'Burrow API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-06); not
-    the provider''s own document.'
+- aid: burrow:burrow-events-api
+  name: Burrow Events API
+  description: The Events API from Burrow — 2 operation(s) for events.
   humanURL: https://useburrow.com/docs
   baseURL: https://api.useburrow.com
+  tags:
+  - Events
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/burrow-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/burrow-events-api-openapi.yml
   - type: JSONSchema
     url: json-schema/burrow-post-api-v1-events-request-schema.json
   - type: JSONSchema
     url: json-schema/burrow-post-v1-events-request-schema.json
-
+- aid: burrow:burrow-mcp-api
+  name: Burrow MCP API
+  description: The Mcp API from Burrow — 1 operation(s) for mcp.
+  humanURL: https://useburrow.com/docs
+  baseURL: https://api.useburrow.com
+  tags:
+  - Mcp
+  properties:
+  - type: OpenAPI
+    url: openapi/burrow-mcp-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/burrow-post-api-v1-events-request-schema.json
+  - type: JSONSchema
+    url: json-schema/burrow-post-v1-events-request-schema.json
 x-coverage:
   state: unreadable
   reason: js-rendered-docs
