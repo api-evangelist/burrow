@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Burrow is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/burrow_stock/
+Burrow provides a client reporting and operations platform for web agencies, offering an event‑driven orchestration layer that ingests data from tools like WordPress, Shopify, Stripe, and many others. It supplies SDKs, plugins, and a JSON‑RPC MCP for AI agents to automate agency workflows, generate reports, and query analytics. The platform is self‑funded, independent, and built for long‑term agency operations.
+
+**Areas:** Company · Software-as-a-Service · Reporting · Automation
+
+## Burrow on APIs.io
+
+Everything profiled for Burrow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/burrow/](https://apis.io/providers/burrow/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Burrow Events API](https://apis.io/apis/burrow/burrow-events-api/) — The Events API from Burrow — 2 operation(s) for events.
+- [Burrow MCP API](https://apis.io/apis/burrow/burrow-mcp-api/) — The Mcp API from Burrow — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostApiV1EventsRequest](https://apis.io/schemas/burrow/burrow-post-api-v1-events-request/)
+- [PostV1EventsRequest](https://apis.io/schemas/burrow/burrow-post-v1-events-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Burrow Context](https://apis.io/jsonld/burrow/burrow-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Burrow API Rules](https://apis.io/rules/burrow/burrow-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Burrow Authentication](https://apis.io/security/burrow/burrow-authentication/)
+- [Burrow Domain Security](https://apis.io/security/burrow/burrow-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Burrow Plans Pricing](https://apis.io/plans/burrow/burrow-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://useburrow.com/)
+- [Getting started](https://useburrow.com/docs)
+- [Pricing](https://useburrow.com/pricing)
+- [Sign up](https://app.useburrow.com/sign-up)
+- [Changelog](https://useburrow.com/changelog)
+- [Terms of service](https://useburrow.com/terms)
+- [Privacy policy](https://useburrow.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 35.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 24.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 65.8 |
+
+**Agent readiness 18.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/burrow/](https://apis.io/providers/burrow/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Burrow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/burrow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
